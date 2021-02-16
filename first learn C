@@ -10,7 +10,7 @@ int main(void)
 	printf("d_value=%.12f\nf_value=%.12f\n",d_value,f_value);
 	printf("1.0/3.0 display 16 decimal places.\n");
 	printf("d_value=%.16f\nf_value=%.12f\n",d_value,f_value);
-	printf("float and double maxium significant digits:\n");
+	printf("float and double maxium significant digits:\n");/*修改*/
 	printf("FLT_DIG=%d,DBL_DIG=%d\n",FLT_DIG,DBL_DIG);
 	return 0;
 }
